@@ -1,0 +1,24 @@
+2019-02-25 12:29:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE VARAUS(ID INTEGER PRIMARY KEY, ASIAKAS_ID INTEGER, ALKUPAIVA DATE, LOPPUPAIVA DATE, HUONETYYPPI VARCHAR(32), KORKEINHINTA INTEGER, FOREIGN KEY (ASIAKAS_ID) REFRENCES[*] ASIAKAS(ID)); "; expected "INDEX, REFERENCES"; SQL statement:
+CREATE TABLE Varaus(id INTEGER PRIMARY KEY, asiakas_id INTEGER, alkupaiva DATE, loppupaiva DATE, huonetyyppi VARCHAR(32), korkeinhinta INTEGER, FOREIGN KEY (asiakas_id) REFRENCES Asiakas(id)); [42001-197]
+2019-02-25 12:31:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE VARAUS(ID INTEGER PRIMARY KEY, ASIAKAS_ID INTEGER, ALKUPAIVA DATE, LOPPUPAIVA DATE, HUONETYYPPI VARCHAR(32), KORKEINHINTA INTEGER, FOREIGN KEY (ASIAKAS_ID) REFRENCES[*] ASIAKAS(ID)); "; expected "INDEX, REFERENCES"; SQL statement:
+CREATE TABLE Varaus(id INTEGER PRIMARY KEY, asiakas_id INTEGER, alkupaiva DATE, loppupaiva DATE, huonetyyppi VARCHAR(32), korkeinhinta INTEGER, FOREIGN KEY (asiakas_id) REFRENCES Asiakas(id)); [42001-197]
+2019-02-25 12:31:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HOTELLIHUONE" not found; SQL statement:
+INSERT INTO Hotellihuone (numero, tyyppi, paivahinta) VALUES (?, ?, ? [42102-197]
+2019-02-25 12:33:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE VARAUS(ID INTEGER PRIMARY KEY, ASIAKAS_ID INTEGER, ALKUPAIVA DATE, LOPPUPAIVA DATE, HUONETYYPPI VARCHAR(32), KORKEINHINTA INTEGER, FOREIGN KEY (ASIAKAS_ID) REFRENCES[*] ASIAKAS(ID)); "; expected "INDEX, REFERENCES"; SQL statement:
+CREATE TABLE Varaus(id INTEGER PRIMARY KEY, asiakas_id INTEGER, alkupaiva DATE, loppupaiva DATE, huonetyyppi VARCHAR(32), korkeinhinta INTEGER, FOREIGN KEY (asiakas_id) REFRENCES Asiakas(id)); [42001-197]
+2019-02-25 12:33:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HOTELLIHUONE" not found; SQL statement:
+INSERT INTO Hotellihuone (numero, tyyppi, paivahinta) VALUES (?, ?, ?) [42102-197]
+2019-02-25 12:37:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE VARAUS(ID INTEGER PRIMARY KEY, ASIAKAS_ID INTEGER, ALKUPAIVA DATE, LOPPUPAIVA DATE, HUONETYYPPI VARCHAR(32), KORKEINHINTA INTEGER, FOREIGN KEY (ASIAKAS_ID) REFRENCES[*] ASIAKAS(ID)); "; expected "INDEX, REFERENCES"; SQL statement:
+CREATE TABLE Varaus(id INTEGER PRIMARY KEY, asiakas_id INTEGER, alkupaiva DATE, loppupaiva DATE, huonetyyppi VARCHAR(32), korkeinhinta INTEGER, FOREIGN KEY (asiakas_id) REFRENCES Asiakas(id)); [42001-197]
+2019-02-25 13:34:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE VARAUS(ID INTEGER PRIMARY KEY, ASIAKAS_ID INTEGER, ALKUPAIVA DATE, LOPPUPAIVA DATE, HUONETYYPPI VARCHAR(32), KORKEINHINTA INTEGER, FOREIGN KEY (ASIAKAS_ID) REFRENCES[*] ASIAKAS(ID)); "; expected "INDEX, REFERENCES"; SQL statement:
+CREATE TABLE Varaus(id INTEGER PRIMARY KEY, asiakas_id INTEGER, alkupaiva DATE, loppupaiva DATE, huonetyyppi VARCHAR(32), korkeinhinta INTEGER, FOREIGN KEY (asiakas_id) REFRENCES Asiakas(id)); [42001-197]
+2019-02-25 13:41:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE VARAUS(ID INTEGER PRIMARY KEY, ASIAKAS_ID INTEGER, ALKUPAIVA DATE, LOPPUPAIVA DATE, HUONETYYPPI VARCHAR(32), KORKEINHINTA INTEGER, FOREIGN KEY (ASIAKAS_ID) REFRENCES[*] ASIAKAS(ID)); "; expected "INDEX, REFERENCES"; SQL statement:
+CREATE TABLE Varaus(id INTEGER PRIMARY KEY, asiakas_id INTEGER, alkupaiva DATE, loppupaiva DATE, huonetyyppi VARCHAR(32), korkeinhinta INTEGER, FOREIGN KEY (asiakas_id) REFRENCES Asiakas(id)); [42001-197]
